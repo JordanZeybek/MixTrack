@@ -1,0 +1,4 @@
+Application name	music-nation
+API key	09f2460abb11b48303a51d3d59f6d15e
+Shared secret	8488e9db081056df0f2ce99b36e21b04
+Registered to	itsatrapforu
