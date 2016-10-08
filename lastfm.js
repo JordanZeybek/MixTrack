@@ -73,7 +73,7 @@ var LastFMStatus = {
       status   = "Error: ";
       message  = '<h4>'+this.trackInfo.message+'</h4>';
     } else {
-      status = this.trackInfo.playing ? '<h4>Now Playing: ' : '<h4>Last Played:'</h4>';
+      status = this.trackInfo.playing ? '<h4>Now Playing: ' : '<h4>Last Played:';
       message  = '<h4>'+this.trackInfo.artist+' - '+this.trackInfo.song+'</h4>';
     }
     statusBox.innerHTML = status + message ;
