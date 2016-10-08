@@ -74,7 +74,7 @@ var LastFMStatus = {
       message  = '<h4>'+this.trackInfo.message+'</h4>';
     } else {
       status = this.trackInfo.playing ? '<h2>Now Playing: ' : '<h2>Last Played: ';
-      message  = '<h2>'+this.trackInfo.artist+' - '+this.trackInfo.song+'</h2>';
+      message  = '<h4>'+this.trackInfo.artist+' - '+this.trackInfo.song+'</h4>';
     }
     statusBox.innerHTML = status + message ;
   }
